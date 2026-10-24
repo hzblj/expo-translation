@@ -1,5 +1,11 @@
 # @hzblj/expo-translation
 
+## 0.1.2
+
+### Patch Changes
+
+- [`77355c5`](https://github.com/hzblj/expo-translation/commit/77355c5d7b9c307f3ec78afd5c37d0e00d08256f) Thanks [@hzblj](https://github.com/hzblj)! - The LICENSE is the complete MIT license, with the limitation of liability it was missing.
+
 ## 0.1.1
 
 ### Patch Changes
