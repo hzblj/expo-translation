@@ -1,5 +1,11 @@
 # @hzblj/expo-translation
 
+## 0.1.1
+
+### Patch Changes
+
+- [`ca7e22c`](https://github.com/hzblj/expo-translation/commit/ca7e22c411040f416ba70f85d811f0053db53924) Thanks [@hzblj](https://github.com/hzblj)! - The README links to the other libraries, at libraries.janblazej.dev.
+
 ## 0.1.0
 
 ### Minor Changes
