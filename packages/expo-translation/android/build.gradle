@@ -1,0 +1,34 @@
+import groovy.json.JsonSlurper
+
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+def packageJson = new JsonSlurper().parseText(file('../package.json').text)
+
+group = 'com.hzblj.expotranslation'
+version = packageJson.version
+
+android {
+  namespace "com.hzblj.expotranslation"
+  defaultConfig {
+    versionCode 1
+    versionName packageJson.version
+  }
+  lintOptions {
+    abortOnError false
+  }
+  testOptions {
+    unitTests.returnDefaultValues = true
+  }
+}
+
+dependencies {
+  // On-device translation: the library itself; each language's model (about 30 MB) is downloaded when needed.
+  implementation 'com.google.mlkit:translate:17.0.3'
+  // Language identification with the model bundled (about 900 KB per ABI), so it works without Play services.
+  implementation 'com.google.mlkit:language-id:17.0.6'
+
+  testImplementation 'junit:junit:4.13.2'
+}
