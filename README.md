@@ -42,6 +42,10 @@ yarn changeset       # describe a change for the next release
 
 Apple's framework translates on a device only: in the simulator the example says so, unless ML Kit is bundled.
 
+## More libraries
+
+The other libraries from the same author are at **[libraries.janblazej.dev](https://www.libraries.janblazej.dev)**.
+
 ## License
 
 MIT © Jan Blazej. The example's articles stream from Wikipedia while it runs; none of them are part of this repository.

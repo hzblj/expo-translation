@@ -165,6 +165,10 @@ const {available, engines, reason, translationSheet, manageDownloads} = await Tr
 
 [`apps/example`](https://github.com/hzblj/expo-translation/tree/main/apps/example): fifteen Wikipedias' articles of the day translated on the device, a playground with identification, Apple's sheet and a batch with its timings, and the languages with their downloads.
 
+## More libraries
+
+The other libraries from the same author are at **[libraries.janblazej.dev](https://www.libraries.janblazej.dev)**.
+
 ## License
 
 MIT © Jan Blazej
