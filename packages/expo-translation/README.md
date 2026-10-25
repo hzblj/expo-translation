@@ -5,6 +5,10 @@
 
 On-device translation for Expo on the platforms' own engines. Nothing is sent anywhere: the text is translated on the phone, offline once its languages are downloaded.
 
+<p>
+  <img alt="German translated into English on the device by ML Kit, in the example on Android" height="560" src="https://raw.githubusercontent.com/hzblj/expo-translation/main/media/android-translate.png" />
+</p>
+
 - **iOS 18:** Apple's Translation framework. Languages are downloaded with the user's consent, in Apple's own sheet. iOS 26 translates installed languages without any view, and iOS 26.4 adds Apple Intelligence's model (`highFidelity`).
 - **Android:** Google's ML Kit, 59 languages, a model of about 30 MB per language that the app downloads and deletes itself.
 - **ML Kit on iOS too, when you want it:** Apple's framework has no Czech, Slovak, Hungarian, Romanian or Greek (among others). The config plugin's `ios.mlkit` bundles ML Kit for them, and `auto` translators use whichever engine can.
