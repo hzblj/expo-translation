@@ -1,6 +1,6 @@
 {
   "name": "@hzblj/expo-translation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "On-device translation for Expo on the platforms' own engines: Apple's Translation framework on iOS (with Google's ML Kit for the languages it lacks, when you turn it on) and ML Kit on Android. Language checks and downloads, language identification, batches, a cache, hooks and Apple's translation sheet.",
   "author": "Jan Blazej",
   "license": "MIT",
