@@ -1,5 +1,11 @@
 # @hzblj/expo-translation
 
+## 0.1.3
+
+### Patch Changes
+
+- [`2ce3c90`](https://github.com/hzblj/expo-translation/commit/2ce3c90a7e3805f9b11dd6bc082b0824b7bfe4fa) Thanks [@hzblj](https://github.com/hzblj)! - The README shows the example app on Android.
+
 ## 0.1.2
 
 ### Patch Changes
