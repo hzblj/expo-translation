@@ -17,8 +17,9 @@ export const TargetPicker = () => {
   if (options.length === 0) {
     return null
   }
-  // Picker brings its own host on both platforms: it goes straight into the React Native tree, not into an Island.
-  return <Picker onValueChange={setTarget} options={options} value={target} />
+  // Picker brings its own host on both platforms: it goes straight into the React Native tree, not into an Island. A
+  // menu on iOS, as Android's dropdown is: a wheel would take the screen the translations are for.
+  return <Picker onValueChange={setTarget} options={options} pickerStyle="menu" value={target} />
 }
 
 /**

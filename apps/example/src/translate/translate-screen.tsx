@@ -203,7 +203,7 @@ export const TranslateScreen = () => {
         <Island>
           <TextField defaultValue={input} key={inputKey} multiline onChangeText={setInput} testID="input" />
         </Island>
-        <Picker onValueChange={setFrom} options={sources} value={from} />
+        <Picker onValueChange={setFrom} options={sources} pickerStyle="menu" value={from} />
       </Section>
 
       <Section title="Into">

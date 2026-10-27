@@ -1962,28 +1962,28 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hzblj/expo-zoom-transition@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@hzblj/expo-zoom-transition@npm:0.1.0"
+"@hzblj/expo-zoom-transition@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@hzblj/expo-zoom-transition@npm:0.2.0"
   peerDependencies:
     expo: ">=57"
     expo-router: ">=57"
     react: "*"
     react-native: "*"
     react-native-screens: ">=4"
-  checksum: 10c0/60d461b5c9dfefaa10bff9ccbcb9794bd310815e1a8ca3acc9d27eff247ee7a0186c2f1b19d1ed6bc4c35308c1b5969d70d99278155484959062158aa3ec5176
+  checksum: 10c0/2a28c734528327e28d34a745038d745758320fb519e891f76ffe71b8f9aa08540579af07774a5718a43806ea9103aa52d966f39d08dfef15f50ca96da6d70eb3
   languageName: node
   linkType: hard
 
-"@hzblj/kara-components@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-components@npm:0.15.0"
+"@hzblj/kara-components@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-components@npm:0.17.0"
   dependencies:
     "@hzblj/expo-native-icons": "npm:^0.1.0"
     "@hzblj/expo-rich-haptics": "npm:^0.1.0"
-    "@hzblj/kara-native": "npm:^0.15.0"
-    "@hzblj/kara-sx": "npm:^0.15.0"
-    "@hzblj/kara-theme": "npm:^0.15.0"
+    "@hzblj/kara-native": "npm:^0.17.0"
+    "@hzblj/kara-sx": "npm:^0.17.0"
+    "@hzblj/kara-theme": "npm:^0.17.0"
     sf-symbols-typescript: "npm:^2.2.0"
   peerDependencies:
     "@expo/ui": ~57.0.0
@@ -1993,91 +1993,91 @@ __metadata:
     react: "*"
     react-native: "*"
     react-native-reanimated: ">=4.0.0"
-  checksum: 10c0/e8c62ff466d6395056efd9c3460b63d44537388a689b1ecc0320e3f0457a69037b2c3916072e2b142b9e1a7a20dcf67b1ad1ff6faf37a624c54a66205e8e689f
+  checksum: 10c0/76d4fa63a6f23a4da4461b57d6412cb02fe2a558ec19995ea14b60da0b5e7dbe7848b5549875c2f1cd91bb90185c0b59fafa9cfda17ab810bf06fd59760bc5cb
   languageName: node
   linkType: hard
 
-"@hzblj/kara-expo-plugin@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-expo-plugin@npm:0.15.0"
+"@hzblj/kara-expo-plugin@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-expo-plugin@npm:0.17.0"
   dependencies:
     "@hzblj/expo-native-icons": "npm:^0.1.0"
   peerDependencies:
     expo: "*"
-  checksum: 10c0/b2822ac40a4ef7a3d83ffe8c273880228e46e1aa82b346b77f8da7c61f4ef0d198b48ffb86c916003001385a083d96b64fbc296dcd2e4b519ade001ed77bc87f
+  checksum: 10c0/6da8b08e3a978e49cc8b124474397a028b6a3c412ff8190363e4662ce7d7779af377ae65a68dd3212e57076b360c77ea1b82909bb3a47e0a8661209cd9520539
   languageName: node
   linkType: hard
 
-"@hzblj/kara-native@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-native@npm:0.15.0"
+"@hzblj/kara-native@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-native@npm:0.17.0"
   dependencies:
-    "@hzblj/expo-zoom-transition": "npm:^0.1.0"
+    "@hzblj/expo-zoom-transition": "npm:^0.2.0"
     sf-symbols-typescript: "npm:^2.2.0"
   peerDependencies:
     "@expo/ui": ~57.0.0
     expo: ~57.0.0
     react: "*"
     react-native: "*"
-  checksum: 10c0/1b4d63d704bcad194836627c88e605c10369f5b36bfe5839cecc663e9b2986f99866c41c018d6324c40645258d3bfc69baec7bbe04cb9cecfca6a16ffbcd8896
+  checksum: 10c0/bb67a5a74a372cee836984f5886cf3b82a40cfa05d26e2add54325dae10a60d8099e08a259b091972b68f8bc8fe33bc2eb53e918a6f0bd8e931c5083de8769e1
   languageName: node
   linkType: hard
 
-"@hzblj/kara-router@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-router@npm:0.15.0"
+"@hzblj/kara-router@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-router@npm:0.17.0"
   dependencies:
     "@hzblj/expo-native-icons": "npm:^0.1.0"
-    "@hzblj/expo-zoom-transition": "npm:^0.1.0"
-    "@hzblj/kara-components": "npm:^0.15.0"
-    "@hzblj/kara-native": "npm:^0.15.0"
-    "@hzblj/kara-theme": "npm:^0.15.0"
+    "@hzblj/expo-zoom-transition": "npm:^0.2.0"
+    "@hzblj/kara-components": "npm:^0.17.0"
+    "@hzblj/kara-native": "npm:^0.17.0"
+    "@hzblj/kara-theme": "npm:^0.17.0"
   peerDependencies:
     expo-router: "*"
     react: "*"
     react-native: "*"
     react-native-screens: "*"
-  checksum: 10c0/2cc4bb8ed6c82d79fb846af01cbc33a6243a712f5a1c51463039ac7b775fc4dddafa014ea776f1a2cebae75c714402d56a2ddab10dc23111e2c5a550e5dfbb88
+  checksum: 10c0/9425ade919fdfb269782e543b6c4e7086e5eee39e64b3c5fd6849e27d989abf7c98f139c95f07548db462c67aec0901b0812e4fd34973b41a8cfc244605b75dd
   languageName: node
   linkType: hard
 
-"@hzblj/kara-sx@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-sx@npm:0.15.0"
+"@hzblj/kara-sx@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-sx@npm:0.17.0"
   dependencies:
-    "@hzblj/kara-native": "npm:^0.15.0"
-    "@hzblj/kara-theme": "npm:^0.15.0"
+    "@hzblj/kara-native": "npm:^0.17.0"
+    "@hzblj/kara-theme": "npm:^0.17.0"
   peerDependencies:
     "@expo/ui": ~57.0.0
     react: "*"
     react-native: "*"
     react-native-reanimated: ">=4.0.0"
-  checksum: 10c0/6aa68c7aae4dc600aa946e544f45249b1a58e34e80a6043012cf047b2abaac3e686aa8671146acc50182aef30dd8fe20224b10346a860d365caeaa3d7353006f
+  checksum: 10c0/261074b3c253bef0b572ddeaf4cd124c4f213bdc350c4ccd2a77dae581bf7341272c6f4717488445738732bfc90c3be76be5eca89dc0bb1e32b8466c70093ac2
   languageName: node
   linkType: hard
 
-"@hzblj/kara-theme@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-theme@npm:0.15.0"
+"@hzblj/kara-theme@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-theme@npm:0.17.0"
   peerDependencies:
     "@expo/ui": ~57.0.0
     react: "*"
     react-native: "*"
-  checksum: 10c0/8d35bc025ba8c4281c191d820fb5a7e3d65270496cb4727df90a5e8be54be25f949aa13721f658a303cafdc186f1a76f53415a5d3a76c61070f56733002ce4d3
+  checksum: 10c0/c714b968a56d13fbf7fc29e22b960362c128ed12391a8f97f890b393de78ae393c9ed61bee77333e6f5bb966b29504af821fbfcd980e7ff6d0aa0910929016a6
   languageName: node
   linkType: hard
 
-"@hzblj/kara-ui@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@hzblj/kara-ui@npm:0.15.0"
+"@hzblj/kara-ui@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@hzblj/kara-ui@npm:0.17.0"
   dependencies:
     "@hzblj/expo-native-icons": "npm:^0.1.0"
-    "@hzblj/kara-components": "npm:^0.15.0"
-    "@hzblj/kara-expo-plugin": "npm:^0.15.0"
-    "@hzblj/kara-native": "npm:^0.15.0"
-    "@hzblj/kara-router": "npm:^0.15.0"
-    "@hzblj/kara-sx": "npm:^0.15.0"
-    "@hzblj/kara-theme": "npm:^0.15.0"
+    "@hzblj/kara-components": "npm:^0.17.0"
+    "@hzblj/kara-expo-plugin": "npm:^0.17.0"
+    "@hzblj/kara-native": "npm:^0.17.0"
+    "@hzblj/kara-router": "npm:^0.17.0"
+    "@hzblj/kara-sx": "npm:^0.17.0"
+    "@hzblj/kara-theme": "npm:^0.17.0"
   peerDependencies:
     "@expo/ui": ~57.0.0
     "@lodev09/react-native-true-sheet": ">=3.11.0"
@@ -2095,7 +2095,7 @@ __metadata:
       optional: true
   bin:
     kara-icons: ./bin/kara-icons.js
-  checksum: 10c0/8138b7c456cd8b2bb4e9fc15a801f543731fa62b85c0a1a9c9628d07362c9f362835dfd024aba7b0b1c6d465156b32a136117e6a516e18d827407b89ec3854a8
+  checksum: 10c0/10b99cfb5a5762a1fdc906b16eda0d4c3044a13dcf601105951d7de5340903dfe299bc2547ebcc4ed3027ba132c04bc9690de49ff2e768c11eb70c8f607e2b1a
   languageName: node
   linkType: hard
 
@@ -4565,7 +4565,7 @@ __metadata:
     "@babel/core": "npm:^7.29.7"
     "@expo/ui": "npm:~57.0.26"
     "@hzblj/expo-translation": "workspace:*"
-    "@hzblj/kara-ui": "npm:^0.15.0"
+    "@hzblj/kara-ui": "npm:^0.17.0"
     "@lodev09/react-native-true-sheet": "npm:3.11.18"
     "@types/react": "npm:~19.2.14"
     expo: "npm:~57.0.31"
