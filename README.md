@@ -6,6 +6,7 @@
 On-device translation for Expo on the platforms' own engines: Apple's Translation framework on iOS (with Google's ML Kit for the languages it lacks, when you turn it on) and ML Kit on Android. Language checks and downloads, language identification, batches that arrive text by text, a cache, hooks and Apple's translation sheet. Nothing is sent anywhere.
 
 <p>
+  <img alt="German translated into English on the device by Apple's Translation framework, in the example on iOS" height="560" src="media/ios-translate.png" />
   <img alt="German translated into English on the device by ML Kit, in the example on Android" height="560" src="media/android-translate.png" />
 </p>
 

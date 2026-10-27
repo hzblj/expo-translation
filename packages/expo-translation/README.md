@@ -6,6 +6,7 @@
 On-device translation for Expo on the platforms' own engines. Nothing is sent anywhere: the text is translated on the phone, offline once its languages are downloaded.
 
 <p>
+  <img alt="German translated into English on the device by Apple's Translation framework, in the example on iOS" height="560" src="https://raw.githubusercontent.com/hzblj/expo-translation/main/media/ios-translate.png" />
   <img alt="German translated into English on the device by ML Kit, in the example on Android" height="560" src="https://raw.githubusercontent.com/hzblj/expo-translation/main/media/android-translate.png" />
 </p>
 
