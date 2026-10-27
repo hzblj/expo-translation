@@ -1,5 +1,11 @@
 # @hzblj/expo-translation
 
+## 0.1.4
+
+### Patch Changes
+
+- [`cd71af0`](https://github.com/hzblj/expo-translation/commit/cd71af03b7997c3a9f5ab59e62fdb1c1bd805713) Thanks [@hzblj](https://github.com/hzblj)! - The README shows the example app on iOS too, translating with Apple's framework.
+
 ## 0.1.3
 
 ### Patch Changes
