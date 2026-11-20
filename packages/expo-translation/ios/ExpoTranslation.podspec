@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.license        = package['license']
-  # Expo SDK 57's minimum. Apple's Translation framework translates from iOS 18; its sheet comes with iOS 17.4.
+  # Expo SDK 58's minimum. Apple's Translation framework translates from iOS 18; its sheet comes with iOS 17.4.
   s.platforms      = { :ios => '16.4' }
   s.swift_version  = '5.9'
   s.source         = { :git => 'https://github.com/hzblj/expo-translation.git', :tag => "@hzblj/expo-translation@#{s.version}" }

@@ -1,4 +1,4 @@
-import {useReleasingSharedObject} from 'expo-modules-core'
+import {useReleasingSharedObject} from 'expo'
 import {useCallback, useEffect, useState} from 'react'
 
 import {translationCache} from './cache'

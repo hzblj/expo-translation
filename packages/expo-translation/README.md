@@ -23,7 +23,7 @@ On-device translation for Expo on the platforms' own engines. Nothing is sent an
 npx expo install @hzblj/expo-translation
 ```
 
-Requires Expo SDK 57 or newer and a [development build](https://docs.expo.dev/develop/development-builds/introduction/). Expo Go doesn't include this native module.
+Requires Expo SDK 58 or newer and a [development build](https://docs.expo.dev/develop/development-builds/introduction/). Expo Go doesn't include this native module.
 
 Nothing has to be configured: neither engine needs a permission. The config plugin is only for ML Kit on iOS:
 
