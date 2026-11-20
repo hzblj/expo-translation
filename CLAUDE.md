@@ -32,9 +32,6 @@ yarn changeset
   `paths`, `metro.config.js`), so no build is needed to run it. The published entry points are `build/`.
 - Docs copy (READMEs, JSDoc that becomes docs, changesets) has no em dashes.
 - `yarn release` publishes through Yarn (`workspace:` ranges rewritten) and tags through changesets.
-- **iOS 27 needs the scene life cycle.** Built with the iOS 27 SDK, an app without it stops at launch (UIKit's
-  `_UIApplicationEvaluateRuntimeIssueForNoSceneLifecycleAdoption`), and Expo 57's prebuild template has none. The
-  example's `app.config.ts` adopts it with `withSceneLifecycle` (Expo's own `ExpoAppSceneDelegate`, as Expo 58's
-  template does); drop that plugin when the example moves to Expo 58. The library itself works either way.
+- The example uses the iOS scene life cycle from the Expo SDK 58 prebuild template.
 - Apple's framework doesn't translate in any simulator; run on a device, or prebuild with `MLKIT=1` and use an x86_64
   simulator.

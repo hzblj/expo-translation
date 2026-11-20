@@ -19,10 +19,7 @@ it renders at zero height on iOS and breaks the Island's layout on Android.
 
 **No Wikipedia content in the repo.** The articles and their pictures are fetched from Wikimedia while the app runs.
 
-**The scene life cycle** (`withSceneLifecycle` in `app.config.ts`): iOS 27 stops an app built with its SDK at launch
-unless it adopts scenes, and Expo 57's template doesn't. The plugin registers Expo's `ExpoAppSceneDelegate` in
-Info.plist and leaves the app delegate only providing the React Native factory, as Expo 58's template does. Remove it
-with the move to Expo 58.
+The Expo SDK 58 prebuild template provides the iOS scene life cycle.
 
 **Native changes need a rebuild**: `yarn prebuild` (it builds the package first), then a native run. `MLKIT=1 yarn
 prebuild` bundles ML Kit on iOS (Czech and the other languages Apple lacks); that build runs on a device or an x86_64
